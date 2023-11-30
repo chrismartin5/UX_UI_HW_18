@@ -1,38 +1,28 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: top;
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgray;
 }
 
-.logo {
-    width: 23%;
-    padding: 1%;
-}
-
-header p {
-    display: inline-block;
-    font-size: medium;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.name {
+    display: flex;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 60px;
 }
-nav {
-    width: 73%;
-    padding: 1%;
-    text-align: center;
-}
 
-.ul {
-    width: 50%;
+.center {
+    display: block;
+    height: auto;
     margin-left: auto;
-}
-
-.heroImg {
-    height: 600px;
-    padding: 25px;
+    margin-right: auto;
+    width: 30%;
 }
 
 .content {
-    width: 500px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
 
 footer {
@@ -43,4 +33,15 @@ footer {
 footer ul {
     display: inline-block;
     vertical-align: top;
+}
+
+.arrowDown {
+    display: flex;
+    width: auto; 
+    height: 20px;
+}
+
+.navButtons {
+    display: flex;
+    flex-direction: row;
 }
